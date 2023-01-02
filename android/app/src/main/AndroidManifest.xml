@@ -4,6 +4,11 @@
         android:label="letsblog_flutter"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+       <!-- I added this by myself      -->
+       <activity
+           android:name="com.yalantis.ucrop.UCropActivity"
+           android:screenOrientation="portrait"
+           android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
