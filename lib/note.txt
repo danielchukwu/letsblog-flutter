@@ -1,0 +1,9 @@
+
+THINGS TO TAKE NOTE OF
+
+Functions
+- Any method parameter with a name suffixed with press means that parameter is
+  expecting a callback function
+
+  ? means a variable can be null or not null
+  ! means a variable is not null
