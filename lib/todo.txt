@@ -1,0 +1,4 @@
+Edit-profile
+- add skills pill
+- remove maxLength count from all input fields except bio
+- pre-populate form with data passed into the screen. Use material page way
