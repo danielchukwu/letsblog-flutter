@@ -6,11 +6,13 @@ import 'package:letsblog_flutter/screens/edit_profile/edit_profile_screen.dart';
 import 'package:letsblog_flutter/screens/follows/follows_screen.dart';
 import 'package:letsblog_flutter/screens/home/home_screen.dart';
 import 'package:letsblog_flutter/screens/loading.dart';
+import 'package:letsblog_flutter/screens/login/login_screen.dart';
 import 'package:letsblog_flutter/screens/manage_blogs/manage_blogs_screen.dart';
 import 'package:letsblog_flutter/screens/notifications/notifications_screen.dart';
 import 'package:letsblog_flutter/screens/notifications_group/notifications_group_screen.dart';
 import 'package:letsblog_flutter/screens/profile/profile_screen.dart';
 import 'package:letsblog_flutter/screens/search/search_screen.dart';
+import 'package:letsblog_flutter/screens/sign_up/sign_up_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -40,9 +42,11 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
           primarySwatch: Colors.blue,
         ),
-        initialRoute: '/home',
+        initialRoute: '/login',
         routes: {
           '/': (context) => LoadingScreen(),
+          '/login': (context) => LoginScreen(),
+          '/signup': (context) => SignUpScreen(),
           '/home': (context) => HomeScreen(),
           '/blogs': (context) => BlogScreen(),
           '/profile': (context) => ProfileScreen(),
