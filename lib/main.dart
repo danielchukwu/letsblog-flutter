@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
           primarySwatch: Colors.blue,
         ),
-        initialRoute: '/login',
+        initialRoute: '/home',
         routes: {
           '/': (context) => LoadingScreen(),
           '/login': (context) => LoginScreen(),
